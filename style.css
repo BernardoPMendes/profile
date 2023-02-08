@@ -24,9 +24,9 @@ a:hover{
 }
 
 .card {
-  background-color: #ff595e;
+  background-color: #5D055C;
   border-radius: 5px;
-  box-shadow: 10px 5px 0px rgb(247, 3, 158);
+  box-shadow: 10px 5px 0px #800680;
   margin: 2em auto;
   width: 66vw;
   padding: 1vw;
@@ -35,7 +35,7 @@ a:hover{
 .link{
   margin: 0 auto;
   border-radius: 5px;
-  box-shadow: 10px 5px 0px rgb(247, 3, 158);
+  box-shadow: 10px 5px 0px #800680;
   margin: 1em auto;
   padding: 0.5vw;
 }
