@@ -1,0 +1,79 @@
+body {
+  background-image: url("./images/matrix.gif");
+  color :bisque;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: Ariel, sans-serif;
+}
+
+#img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: #560bad;
+}
+
+a:hover{
+  color: #ff00d0;
+}
+
+.card {
+  background-color: #ff595e;
+  border-radius: 5px;
+  box-shadow: 10px 5px 0px rgb(247, 3, 158);
+  margin: 2em auto;
+  width: 66vw;
+  padding: 1vw;
+}
+
+.link{
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 10px 5px 0px rgb(247, 3, 158);
+  margin: 1em auto;
+  padding: 0.5vw;
+}
+
+.link a {
+  font-size: 2em;
+}
+
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-box .card {
+  margin: 2vw;
+}
+
+.container {
+  margin: 2em;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
